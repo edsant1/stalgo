@@ -18,12 +18,12 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  s.add_dependency "rails", "~> 4.1.5"
+  spec.add_dependency "rails", "~> 4.1.5"
 
   # spec.add_development_dependency "bundler", "~> 1.6"
   # spec.add_development_dependency "rake"
-  s.add_development_dependency "pg"
-  s.add_development_dependency "rspec-rails", "3.1.0"
-  s.add_development_dependency "pry-rails"
-  s.add_development_dependency "pry-nav"
+  spec.add_development_dependency "pg"
+  spec.add_development_dependency "rspec-rails", "3.1.0"
+  spec.add_development_dependency "pry-rails"
+  spec.add_development_dependency "pry-nav"
 end

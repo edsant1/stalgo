@@ -1,6 +1,6 @@
-# Stalgo
+Stalgo
 
-TODO: Write a gem description
+TODO: this gem will pull stats from your app!
 
 ## Installation
 

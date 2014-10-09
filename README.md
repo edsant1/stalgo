@@ -1,6 +1,6 @@
 Stalgo
 
-TODO: this gem will pull stats from your app!
+This gem will pull stats from your app!
 
 ## Installation
 
@@ -18,7 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+To run stats for app
 
 ## Contributing
 

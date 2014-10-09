@@ -6,8 +6,8 @@ require 'stalgo/version'
 Gem::Specification.new do |spec|
   spec.name          = "stalgo"
   spec.version       = Stalgo::VERSION
-  spec.authors       = ["Edwin Santizo"]
-  spec.email         = ["edwins10329@gmail.com"]
+  spec.authors       = "Edwin Santizo"
+  spec.email         = "edwins10329@gmail.com"
   spec.summary       = "Stalgo - A gem to get statistics for your rails app."
   spec.description   = "Utilizes some shell pipes to get awesome stuff."
   spec.homepage      = "http://www.reliablerents.com"
@@ -20,8 +20,8 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "rails", "~> 4.1.5"
 
-  # spec.add_development_dependency "bundler", "~> 1.6"
-  # spec.add_development_dependency "rake"
+  spec.add_development_dependency "bundler", "~> 1.6"
+  spec.add_development_dependency "rake"
   spec.add_development_dependency "pg"
   spec.add_development_dependency "rspec-rails", "3.1.0"
   spec.add_development_dependency "pry-rails"
